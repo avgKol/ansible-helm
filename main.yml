@@ -7,10 +7,10 @@
   
   tasks:
     - name: GET WORKER NODE DETAILS
-    community.kubernetes.k8s_info:
-      kind: Node
-      namespace: default
-      
+      community.kubernetes.k8s_info:
+        kind: Node
+        namespace: default
+
     - name: Add Bitnami's chart repository.
       community.kubernetes.helm_repository:
         name: bitnami

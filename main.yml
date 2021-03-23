@@ -1,6 +1,5 @@
 ---
-- hosts: k8s-master
-  become: yes
+- hosts: localhost
 
   collections: 
     - community.kubernetes
